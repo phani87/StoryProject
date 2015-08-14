@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+.page {
+	  margin-top: auto;
+}
+
+.page:hover, .page.gradient:hover {
+    background: #616161;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B3B3B3), to(#B3B3B3));
+    background: -moz-linear-gradient(0% 0% 270deg,#B3B3B3, #B3B3B3);
+}
+
+
+.page active{
+	  margin-top: auto;
+}

@@ -1,0 +1,119 @@
+@CHARSET "ISO-8859-1";
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* #### Dark Matter #### */
+body{
+	background: #444;
+  font-family: 'Roboto', sans-serif;
+}
+
+form{
+	 position:relative;
+  margin: 50px auto;
+  width: 700px;
+  height: auto;
+}
+
+.dark-matter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background: #555;
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #D3D3D3;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.dark-matter h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+.dark-matter h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-matter label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-matter label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter input[type="password"]{
+    padding: 16px;
+  	border-radius:7px;
+  	border:0px;
+  	background: rgba(255,255,255,.2);
+  	display: block;
+ 	margin: 15px;
+ 	width: 300px;  
+  	color:white;
+  	font-size:18px;
+  	height: 20px;
+}
+.dark-matter select {
+    background: #DFDFDF url('../img/down-arrow.png') no-repeat right;
+    background: #767676 url('../img/down-arrow.png') no-repeat right;
+        appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 42px;
+    color: #FFFFFF;
+    line-height: 25px;
+      margin-left: 15px;
+      font-size: 18px;
+  height: 55px;
+  border-radius: 8px;
+  border-color: #767676;
+  width: 90%;
+  padding: 16px
+}
+.dark-matter textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.dark-matter .button {
+    background: #FFCC02;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #585858;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-shadow: 1px 1px 1px #FFE477;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+}
+
+.dark-matter .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+
+.dark-matter p{
+	color:rgb(255, 255, 246);
+	 display: block;
+	margin-left: 540px;
+}
+
+.dark-matter a{
+margin-left: 5px;
+	}

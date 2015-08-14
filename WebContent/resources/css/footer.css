@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.site-footer, .page-wrap:after {
+  height: 50px; 
+}
+.site-footer {
+  background: orange;
+}

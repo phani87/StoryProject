@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+
+.log p{
+	color:#FAF6F6;
+	 display: block;
+	margin-left: 600px;
+}
+
+.log a{
+	color:#FAF6F6;
+}
